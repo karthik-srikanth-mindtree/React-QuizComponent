@@ -5,7 +5,7 @@ class QuizQuestion extends Component {
   render() {
     return (
      <main>
-        <section>
+        <section className="QuizQuestion">
           <p>{this.props.quiz_question.instruction_text}</p>
         </section>
         <section className="buttons">
